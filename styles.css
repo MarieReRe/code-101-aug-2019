@@ -1,2 +1,12 @@
-body {background-color: gold;
-}
+body {background-color: #FFFF66;
+margin: 0;}
+header {background-color: #0099FF; padding: 1em;}
+h1 {margin: 0;}
+nav {background-color: #aaaaaa;
+margin: 0 -1em;
+;}
+nav ul {background-color: white;
+  margin: 0 -1em;
+  list-style: none ;
+overflow:auto;}
+nav li { float: left;}
