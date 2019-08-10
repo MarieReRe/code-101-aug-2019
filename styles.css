@@ -7,24 +7,29 @@ header {
    padding: 1em;
     overflow: auto;
 }
+h1,h2 {
+    margin: 0;
+     text-align: center;
+}
 h1 {
-  margin: 0;
-  float: left;
+
+
   width: : 400px;
 }
 nav {
-  /* background-color: #aaaaaa; */
-margin: 0 -1em;
- margin-left:400px ;}
+
+margin: 0 2em;
+ margin-left:100px ;
+}
 
 nav ul {
-  background-color: white;
   margin: 0 1em;
   list-style: none ;
 overflow: auto;
 }
 nav li {
-   float: left;
+float: left;
+
  }
 nav a {
   color: black;
@@ -36,3 +41,38 @@ nav a:hover {
   background-color: purple;
    color: white;
  }
+main {
+  * padding: 1em; *
+
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.img-3-col {
+  height: 300px;
+  overflow:auto;
+}
+p {
+  text-indent: 1em;
+}
+p.cap {
+  line-height: 1.4em;
+  text-indent: 0;
+}
+p.cap:first-letter {
+ font-size: 2.8 em;
+ float: left;
+ margin-top: 0.25em;
+}
+.calendar {
+  margin: auto;
+    width: 50%;
+}
+.instagram-media {
+  float: left;
+
+}
+.HoverCard {
+  display: none;
+}
