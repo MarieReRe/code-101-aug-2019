@@ -1,9 +1,10 @@
 body {
-  background-color: #FFFF66;
+  background-color: white
+;
 margin: 0;
 }
 header {
-  background-color: #0099FF;
+  background-color: white;
    padding: 1em;
     overflow: auto;
 }
@@ -12,22 +13,26 @@ h1,h2 {
      text-align: center;
 }
 h1 {
-
-
+font-size: 4em;
   width: : 400px;
 }
 nav {
+   text-align: center;
 
-margin: 0 2em;
- margin-left:100px ;
+margin: 0;
+
 }
 
 nav ul {
-  margin: 0 1em;
+  display: inline-block;
+
+  margin: 0;
+  padding: 0;
   list-style: none ;
 overflow: auto;
 }
 nav li {
+
 float: left;
 
  }
@@ -42,6 +47,10 @@ nav a:hover {
    color: white;
  }
 main {
+  background-image: url("http://storage.googleapis.com/zagat-article-ss/flour-water-pasta-pressimage_(1).jpg" );
+  background-size: cover;
+  background-position: center;
+
   * padding: 1em; *
 
 }
@@ -49,10 +58,7 @@ img {
   max-width: 100%;
   max-height: 100%;
 }
-.img-3-col {
-  height: 300px;
-  overflow:auto;
-}
+
 p {
   text-indent: 1em;
 }
@@ -66,8 +72,8 @@ p.cap:first-letter {
  margin-top: 0.25em;
 }
 .calendar {
-  margin: auto;
-    width: 50%;
+  margin: 0 auto;
+    max-width: 100%;
 }
 .instagram-media {
   float: left;
@@ -75,4 +81,24 @@ p.cap:first-letter {
 }
 .HoverCard {
   display: none;
+}
+.container {
+  width: 60%;
+  margin: 0 auto;
+  border: 5px solid black;
+  background-color: rgba(255,255,255,0.6);
+  padding: 1em;
+}
+.about-header {
+  background-image:url("https://ecdn.evensi.com/e305881068?cph=gAAAAABc7IzZKR94OlD-aHZgEIC016SMs0VwuuKkZUbaMOyb7LOE76olSHEbzJ16AZmFlQHUr_GpK1eZKbu0BerjYo-HvP0CXJ533pinkuQVNS3pOVfJwt_XAeek_PFRtLqtp3j5yLHz5dpriCuz5igu6Cr6YtpIDYM8u07yCOBe0ASb_HP3oF7iCPCVk7bnsiNz1M3i6CdZj2gDMm-OaGjgb49PM-pji_mtFulZXHWls7iBHxGkpMRdmibhhUfJEsr9L82FrdEESRFRDZGywmjY1_P86w1KactXKDyhXd0BWUxo-rxqwEbdq2JBrqo7QU2RxHjAxxm4EvIgvUsAXip8lLIPPoGuzA==");
+  background-size: cover;
+  background-position: center;
+}
+.nobg {
+  background: none;
+  padding: 2em;
+}
+.youtube {
+  float: left;
+  margin-right: 2em;
 }
