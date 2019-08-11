@@ -104,3 +104,16 @@ p.cap:first-letter {
   float: left;
   margin-right: 2em;
 }
+footer {
+  background-color: white;
+  color: black;
+  font-size: 2em;
+  text-align: center;
+  padding: 3em;
+
+}
+#copyright-year {
+  font-style: italic;
+  text-align: center;
+
+}
